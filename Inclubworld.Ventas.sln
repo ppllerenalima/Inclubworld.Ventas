@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10.Presentacion", "10.Presentacion", "{8B8757EA-A39A-449F-8832-BBB8C9EE8FB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20.Servicios", "20.Servicios", "{20304E20-89E2-4949-B2BD-0E370ED93974}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30.Aplicacion", "30.Aplicacion", "{F22A1D8F-C9A6-4758-A870-35A83B10D989}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "40.Dominio", "40.Dominio", "{CB7D6B3F-7AE5-487C-BAD5-D18DF5D41C71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "50.Infraestructura", "50.Infraestructura", "{43D3FD54-9792-4ADA-9CCD-33F616ACF53D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "60.Transversal", "60.Transversal", "{46123D55-F6F0-492D-BF14-8F59B2722DB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "70.Pruebas", "70.Pruebas", "{5F5BCDD9-E251-482F-82FF-2425B69C7FFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Otros", "Otros", "{35037347-701A-42E3-9D0B-7B675118E9B1}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2A80956-06CB-4D55-8DD1-153D0528BC92}
+	EndGlobalSection
+EndGlobal
