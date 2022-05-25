@@ -5,12 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Inclubworld.Ventas.Domain.Entity\Inclubworld.Ventas.Domain.Entity.csproj" />
-    <ProjectReference Include="..\Inclubworld.Ventas.Infraestructure.Interface\Inclubworld.Ventas.Infraestructure.Interface.csproj" />
     <ProjectReference Include="..\Inclubworld.Ventas.Transversal.Common\Inclubworld.Ventas.Transversal.Common.csproj" />
   </ItemGroup>
 

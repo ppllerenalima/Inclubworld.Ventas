@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\personal\desarrollo\Inclubworld.Ventas\Inclubworld.Ventas.Services.WebApi\Inclubworld.Ventas.Services.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Inclubworld.Ventas.Application.Interface\Inclubworld.Ventas.Application.Interface.csproj" />
+    <ProjectReference Include="..\Inclubworld.Ventas.Application.Main\Inclubworld.Ventas.Application.Main.csproj" />
+    <ProjectReference Include="..\Inclubworld.Ventas.Application.Validator\Inclubworld.Ventas.Application.Validator.csproj" />
+    <ProjectReference Include="..\Inclubworld.Ventas.Domain.Core\Inclubworld.Ventas.Domain.Core.csproj" />
+    <ProjectReference Include="..\Inclubworld.Ventas.Infraestructure.Data\Inclubworld.Ventas.Infraestructure.Data.csproj" />
+    <ProjectReference Include="..\Inclubworld.Ventas.Infraestructure.Interface\Inclubworld.Ventas.Infraestructure.Interface.csproj" />
+    <ProjectReference Include="..\Inclubworld.Ventas.Infraestructure.Repository\Inclubworld.Ventas.Infraestructure.Repository.csproj" />
+    <ProjectReference Include="..\Inclubworld.Ventas.Transversal.Logging\Inclubworld.Ventas.Transversal.Logging.csproj" />
+    <ProjectReference Include="..\Inclubworld.Ventas.Transversal.Mapper\Inclubworld.Ventas.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+
+</Project>

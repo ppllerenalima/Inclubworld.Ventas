@@ -22,7 +22,7 @@ namespace Inclubworld.Ventas.Infraestructure.Data
                 var sqlConnection = new SqlConnection();
                 if (sqlConnection == null) return null;
 
-                sqlConnection.ConnectionString = _configuration.GetConnectionString("InclubworldConnection");
+                sqlConnection.ConnectionString = _configuration.GetConnectionString("dbDemo_OLTP_Connection");
                 sqlConnection.Open();
                 return sqlConnection;
             }

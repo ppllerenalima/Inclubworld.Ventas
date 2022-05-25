@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Inclubworld.Ventas.Domain.Entity;
+using Inclubworld.Ventas.Infraestructure.Interface;
 using Inclubworld.Ventas.Transversal.Common;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Inclubworld.Ventas.Infraestructure.Repository
 {
-    public class PedidoRepository
+    public class PedidoRepository : IPedidoRepository
     {
         private readonly IConnectionFactory _connectionFactory;
 

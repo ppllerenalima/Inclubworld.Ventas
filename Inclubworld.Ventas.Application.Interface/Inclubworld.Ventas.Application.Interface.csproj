@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Inclubworld.Ventas.Application.DTO\Inclubworld.Ventas.Application.DTO.csproj" />
+    <ProjectReference Include="..\Inclubworld.Ventas.Transversal.Common\Inclubworld.Ventas.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
