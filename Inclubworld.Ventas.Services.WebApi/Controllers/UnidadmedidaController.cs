@@ -10,7 +10,6 @@ using System.Threading.Tasks;
 
 namespace Inclubworld.Ventas.Services.WebApi.Controllers
 {
-    [Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class UnidadmedidaController : ControllerBase

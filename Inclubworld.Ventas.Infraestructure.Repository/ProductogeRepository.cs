@@ -63,7 +63,6 @@ namespace Inclubworld.Ventas.Infraestructure.Repository
             {
                 var query = "ProductogeInsert";
                 var parameters = new DynamicParameters();
-                parameters.Add("idProductoge", obj_productoge_1.idProductoge);
                 parameters.Add("descripcion", obj_productoge_1.descripcion);
                 parameters.Add("estado", obj_productoge_1.estado);
 

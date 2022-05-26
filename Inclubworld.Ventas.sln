@@ -18,6 +18,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "70.Pruebas", "70.Pruebas", "{5F5BCDD9-E251-482F-82FF-2425B69C7FFA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Otros", "Otros", "{35037347-701A-42E3-9D0B-7B675118E9B1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\script_dbDemo_OLTP.sql = ..\..\..\Desktop\script_dbDemo_OLTP.sql
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inclubworld.Ventas.Infraestructure.Data", "Inclubworld.Ventas.Infraestructure.Data\Inclubworld.Ventas.Infraestructure.Data.csproj", "{D7F7D20D-602D-49FB-AEDA-6E4F22193089}"
 EndProject
